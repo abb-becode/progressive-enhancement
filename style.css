@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    max-width: 90%;
+    margin:auto;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#a0c6ed)) fixed;*/      
+    background: -webkit-linear-gradient(-180deg, rgb(234, 241, 248), rgb(160, 198, 237));
+    background: linear-gradient(-180deg, rgb(234, 241, 248), rgb(160, 198, 237));
+    background-image: url("fond-aquarelle-24972-1105.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:cover;
+    background-color: #c5daf0;
+    font-family: "Open Sans", sans-serif;
+}
+blockquote {
+    max-width: 45%;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+    padding-top:80px;
+    padding-bottom:80px;
+    /*font-family: Arial,Helvetica Neue,Helvetica,sans-serif;*/
+    font-size: 16px; /*160%; /*14px;*/
+    color: #428bca;
+    background: #ccc;
+    border-left:5px solid #428bca;
+    font-style: italic;
+}
+header p {
+    background-color:yellow;
+}
+p.small {
+    line-height: 1.7;
+}
+/* Dashed black border */
+hr.new1 {
+    border: 1px dashed black;
+    /*border-style: none none dashed;*/
+    width:20%;
+    text-align:left;
+    margin-left:0
+}
+.bad {
+    font-weight:bold;
+    font-style:italic;
+    color:red;
+    text-transform: capitalize;
+}
+.good {
+    font-weight:bold;
+    font-style:italic;
+    color:green;
+    text-transform: capitalize;
+}
+
+table {
+    width: 30%;
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid black;
+}
+table tr:nth-child(odd) td{
+    background:grey;
+}
+table tr:nth-child(even) td{
+     background:#fff;
+}
+a.hover {
+    color:indianred;
+}
+a.visited {
+    color:indigo;
+}
+p {
+	font-size: 14px;
+	/*font-family: serif, Arial, sans-serif;*/
+    letter-spacing: 2px;
+	color: #212122;
+}
+p.fs12 {
+	font-size: 13px;
+}
+p.new1 {
+	font-weight:bolder;
+    font-size:24px;
+}
+li.bien {
+    background-image:url("bien.png");
+    background-repeat:no-repeat;
+    background-size: 16px 16px;
+    background-position: left 290px top 0.1em;
+}
+li.mal {
+    background-image:url("mal.png");
+    background-repeat:no-repeat;
+    background-size: 16px 16px;
+    background-position: left 290px top 0.4em;
+}
+li.chat {
+    background-image:url("chat.png");
+    background-repeat:no-repeat;
+    background-size: 16px 16px;
+    background-position: left 290px top 0.3em;
+}
+li {
+    height:22px;
+}
+figure {
+    margin:0;
+}
+img.fl {
+    float:left;
+}
+img.mr {
+    margin-right: 15px;
+}
+img.mt {
+    margin-top: 50px;
+}
+img {
+    border:1px solid green;
+}
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position:fixed;
+    bottom:0;
+    right:0; 
+}
