@@ -52,6 +52,18 @@ hr.new1 {
     color:green;
     text-transform: capitalize;
 }
+span.-bad {
+    font-weight:bold;
+    font-style:italic;
+    color:red;
+    text-transform: capitalize;
+}
+span.-good {
+    font-weight:bold;
+    font-style:italic;
+    color:green;
+    text-transform: capitalize;
+}
 
 table {
     width: 30%;
